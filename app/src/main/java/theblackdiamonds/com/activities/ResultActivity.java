@@ -1,4 +1,4 @@
-package theblackdiamonds.com;
+package theblackdiamonds.com.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import theblackdiamonds.com.R;
 
 public class ResultActivity extends AppCompatActivity {
 
@@ -40,7 +42,7 @@ public class ResultActivity extends AppCompatActivity {
     }
 
     public void tryAgain(View view) {
-        startActivity(new Intent(getApplicationContext(), StartActivity.class));
+        startActivity(new Intent(ResultActivity.this, StartActivity.class));
     }
 
     @Override

@@ -1,4 +1,4 @@
-package theblackdiamonds.com;
+package theblackdiamonds.com.activities;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -18,6 +18,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Timer;
 import java.util.TimerTask;
+
+import theblackdiamonds.com.R;
+import theblackdiamonds.com.utils.SoundPlayer;
 
 public class MainActivity extends AppCompatActivity {
 

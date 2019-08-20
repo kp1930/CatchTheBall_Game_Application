@@ -11,9 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".StartActivity"></activity>
-        <activity android:name=".ResultActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.StartActivity"></activity>
+        <activity android:name=".activities.ResultActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

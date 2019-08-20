@@ -1,4 +1,4 @@
-package theblackdiamonds.com;
+package theblackdiamonds.com.utils;
 
 import android.content.Context;
 import android.media.AudioAttributes;
@@ -6,13 +6,15 @@ import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Build;
 
-class SoundPlayer {
+import theblackdiamonds.com.R;
+
+public class SoundPlayer {
 
     private static SoundPool soundPool;
     private static int hitSound;
     private static int overSound;
 
-    SoundPlayer(Context context) {
+    public SoundPlayer(Context context) {
         int SOUND_POOL_MAX = 2;
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             AudioAttributes audioAttributes = new AudioAttributes.Builder()
@@ -32,11 +34,11 @@ class SoundPlayer {
         overSound = soundPool.load(context, R.raw.over, 1);
     }
 
-    void playHitSound() {
+    public void playHitSound() {
         soundPool.play(hitSound, 1.0f, 1.0f, 1, 0, 1.0f);
     }
 
-    void playOverSound() {
+    public void playOverSound() {
         soundPool.play(overSound, 1.0f, 1.0f, 1, 0, 1.0f);
     }
 

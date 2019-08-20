@@ -1,4 +1,4 @@
-package theblackdiamonds.com;
+package theblackdiamonds.com.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.KeyEvent;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import theblackdiamonds.com.R;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -36,7 +38,7 @@ public class StartActivity extends AppCompatActivity {
 //    }
 
     public void startGame(View view) {
-        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        startActivity(new Intent(StartActivity.this, MainActivity.class));
     }
 
     @Override
