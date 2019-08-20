@@ -53,9 +53,9 @@ public class MainActivity extends AppCompatActivity {
         black = findViewById(R.id.black);
 
         WindowManager wm = getWindowManager();
-        Display disp = wm.getDefaultDisplay();
+        Display display = wm.getDefaultDisplay();
         Point size = new Point();
-        disp.getSize(size);
+        display.getSize(size);
 
         screenWidth = size.x;
         screenHeight = size.y;
