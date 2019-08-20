@@ -1,5 +1,18 @@
 <resources>
 
-    <string name="app_name">Flying Bird</string>
+    <string name="app_name">Catch the Ball</string>
+    <string name="score_300">Score : 300</string>
+    <string name="tap_to_start">Tap to Start</string>
+    <string name="catcher">TODO</string>
+    <string name="orange">TODO</string>
+    <string name="black">TODO</string>
+    <string name="pink">TODO</string>
+    <string name="game_over">Game Over</string>
+    <string name="score">150</string>
+    <string name="high_score_300">High Score : 300</string>
+    <string name="try_again">Try Again</string>
+    <string name="catch_the_ball">Catch the Ball</string>
+    <string name="start">START</string>
+    <string name="point">10 point</string>
 
 </resources>
